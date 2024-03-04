@@ -1,13 +1,13 @@
 ---
-name: Muhibullah
-surname: Shahjahan
-position: "Research Assistant"
+#name: Muhibullah
+surname: Muhibullah Shahjahan
+position: "Research Assistant & Tech Associate"
 address: "[Center for Health Innovation, Research, Action, and Learning - Bangladesh (CHIRAL Bangladesh](http://chiralbd.org/))"
 email: "muhibullahshahjahan.me@gmail.com"
 orcid: 0000-0001-6783-7882
 #www: hossainlab.github.io
 linkedin: muhibullah-shahjahan
-#github: hossainlab
+github: Muhibullah-Shahjahan
 headcolor: 414141
 textcolor: a2a333
 date: "`r format(Sys.time(), '%B %Y')`"
@@ -30,9 +30,32 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Qualification and Interest
 
-I am currently pursuing my Bachelor Degree and interested to learning
-different new objectives. Programming is the most interesting part of my
-learning roadmap.
+Curious about the world of data, I'm driven to learn coding, statistics, machine learning, and data analysis to understand and interpret information effectively. My interests lie in fields like microbiology, bioinformatics, public health, and clinical research. I value discipline, punctuality, and am actively working to improve my focus and study habits to further my knowledge and contribute positively to these fields.
+
+# Research Expreience
+```{r experience}
+tribble(
+  ~ role, ~ organization, ~ loc, ~ dates, ~ details,
+  "Undergrad Research Trainee", "Center for Health Innovation, Research, Action, and Learning - Bangladesh", "Dhaka, Bangladesh", "June 2020 - March 2022", 
+    list("Coordinate various workshop and training program", 
+         "Increase social Media engagement and our presence in the community"),
+  
+  "Research Assistant", "Center for Health Innovation, Research, Action, and Learning - Bangladesh", "Dhaka, Bangladesh", "March 2022 - Ongoing", 
+    list("Conducted literature reviews and review data analysis to support research projects", 
+         "Participated in fieldwork, including data collection and data entry",
+         "Formated different submission ready articles according to journal guidelines"),
+  
+ # "Data Enumerator", "Curtin University", "Australia", "October 2022 - November 2022", 
+   # list("Delphi Study on Patient Outcomes Measurement for Interprofessional Tuberculosis Care Bangladesh", 
+    #  "Successfully collected and recorded quantitative and qualitative data from participants, ensuring a comprehensive dataset for the Delphi study"), 
+
+  #"Team Member, Bioinformatics Group", "Bio-Bio-1:: Bioinformatics Research Discussion Group", "Dhaka, Bangladesh", "February 2017 - June 2019", 
+    #list("Pursued learning opportunities to advance knowledge and take on leadership position", 
+       #  "Contributed to team design training modules and content preparation"),
+) %>% 
+  detailed_entries(role, dates, organization, loc, details)
+```
+
 
 # Education and Training
 
@@ -63,8 +86,8 @@ tribble(
 #         "Delivered engaging and informative lectures, workshops, and training sessions on health data analysis methodologies and tools."),
   
    "Teaching Assistant", "Center for Health Innovation, Research, Action, and Learning - Bangladesh", "Dhaka, Bangladesh", "June 2023 - Present", 
-    list("Teach to course participants the basic syntex of different programming language", 
-         "Inform participants about different data collection tools and form design methods"),
+    list("Tought participants the basic syntex of different programming language", 
+         "Introduced participants about different data collection tools and form design methods"),
   
 #    "Teaching Assistant, Public Health and Hygiene, Department of Microbiology", "Jagannath University", "Dhaka, Bangladesh", "October 2022 - December 2022", 
 #    list("Assisted in the delivery of undergraduate courses in Public Health and Hygiene within the Department of Microbiology.", 
@@ -81,45 +104,27 @@ tribble(
 
 # Technical Skills
 
-**Programming Languages:** Python, R, JavaScript;
+**Programming Languages:** Python, R;
 
 **Survey Tools:** RedCap, KoboToolBox, Google Forms;
 
-**Academic Writing Tools:** Microsoft Word, LaTeX, Mendeley;
+**Academic Writing Tools:** Microsoft Word, LaTeX, Mendeley, Markdown, Quarto;
 
-```{r}
-#Data Science:** scikit-learn, PyCaret, Dask, PySpark; **GIS & Remote Sensing:** ArcGIS, Geopandas, Xarray, Giovani, Google Earth Engiine; **Analytics Softwares:** SPSS, PowerBI, Microsoft Excel; **Bioinformatics:** BioPython, Bioconductor, BioPandas, Galaxy, NGS, RNASeq, ssRNASeq; 
-#Miscellaneous Skills:** UNIX, Version Control(Git), Web Scraping, APIs
 
-```
 
 # Publications
 
-Accepted
+## Journal Articles
 
-Hossain, M.J., Towhid, S. T., Akter, S., **Shahjahan, M.**, Roy, T.,
-Akter, B., & Nodee, T. A.(2023). Self‑Management of Diabetic Patients
-from the Urban Areas in Bangladesh.( Accepted by Microbial Bioactives,
-October 2022)
+Hossain, M.J., Towhid, S. T., Akter, S., **Shahjahan, M.**, Roy, T., Akter, B., & Nodee, T. A.(2023). Knowledge and Self‑Management Practice Among Diabetic Patientsfrom the Urban Areas in Bangladesh, Journal of Angiotherapy, 7(1), 1‑10, https://doi.org/10.25163/angiotherapy.717340
 
-```{r}
+Islam, M.W., **Shahjahan, M.**, Azad, A.K., Hossain, M. J. Factors contributing to antibiotic misuse among parents of school‑going children in Dhaka City, Bangladesh.Sci Rep 14, 2318 (2024).https://doi.org/10.1038/s41598-024-52313-y
 
-#Towhid, S. T., **Hossain, M. J.**, Sammo, M. A. S., & Akter, S. (2022). Perception of Students on Antibiotic Resis‑
-#tance and Prevention: An Online, Community‑Based Case Study from Dhaka, Bangladesh. European Journal
-#of Biology and Biotechnology, 3(3), 14–19. #https://doi.org/10.24018/ejbio.2022.3.3.341
 
-#Hossain, M.J.**, Towhid ST, Sultana S, Mukta SA, Gulshan R, Miah MS (2022). Knowledge and Attitudes towards
-#Thalassemia among Public University Students in Bangladesh. Microbial Bioactives, 5(2), https://doi.org/
-#10.25163/microbbioacts.526325.
 
-```
 
-# Submitted
 
-Islam, M.W., **Shahjahan, M.**, Azad, A.K., Hossain, M.J. Factors
-contributing to antibiotic misuse among parents of school-going children
-in Dhaka City, Bangladesh
-
+## Submitted
 
 Hossain, M.J., Das, M.,**Shahjahan, M.**,Islam, M.W., Towhid, S.T.
 Clinical and hematological manifestation of dengue patients in 2022
@@ -129,7 +134,7 @@ Hossain, M.J., Towhid, S. T., M., Islam, M. W., **Shahjahan, M.**. The
 role of community par‑ ticipation and social engagement in the
 prevention and control of dengue fever in Dhaka City.
 
-# In  Preparation
+## In  Preparation
 
 Hossain, M.J., Azad,A.K.,Shahid, M.S.B., **Shahjahan,M.** Prevalence,
 Antibiotic Resistance Pattern for Bacteriuria from Patients with Urinary
